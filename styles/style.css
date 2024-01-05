@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto Mono,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.78;
+    color: #4b4b4b;
+    background-color: #fff;
+}
+
+.main-container {
+    max-width: 50%;
+    min-width: 500px;
+    margin: 5px auto;
+}
+
+label {
+    display: block;
+}
