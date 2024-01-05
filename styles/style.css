@@ -17,6 +17,11 @@ body {
     margin: 5px auto;
 }
 
+.main-container > header {
+    display: flex;
+    justify-content: space-between;
+}
+
 label {
     display: block;
 }
