@@ -60,16 +60,21 @@ footer {
     display: flex;
     list-style: none;
     gap: 10px;
+    justify-content: space-between;
 }
+
+.website-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .website-links-container h4 {
     text-align: left;
     margin-bottom: 5px;
+    font-weight: 300;
 }
 
 .website-link img {
     width: 25px;
-}
-
-.website-link:hover {
-    color: blue;
 }
