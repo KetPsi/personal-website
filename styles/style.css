@@ -10,15 +10,20 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* about */
 .about {
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 18px;
+}
+
+.about-text, .author-img {
+    flex-shrink: 1;
 }
 
 strong {
@@ -44,3 +49,9 @@ label {
     font-family: 'Roboto Mono', monospace;
     padding: 5px;
 } 
+
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
