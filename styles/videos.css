@@ -6,6 +6,7 @@ label {
 iframe,
 form {
     width: 60%;
+    min-width: 500px;
     display: inline-block;
     padding: 10px;
     box-shadow: .5px .5px 5px #4b4b4b;
