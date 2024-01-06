@@ -27,3 +27,9 @@ body {
 label {
     display: block;
 }
+
+.comment-box {
+    width: 300px;
+    height: 100px;
+    text-align: top;
+}
