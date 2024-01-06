@@ -25,9 +25,11 @@ body {
 }
 
 label {
+    font-family: 'Roboto Mono', monospace;
     display: block;
 }
 
-.comment-box {
+::placeholder {
+    font-family: 'Roboto Mono', monospace;
     padding: 5px;
-}
+} 
