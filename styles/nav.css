@@ -11,6 +11,13 @@ nav ul li:last-child {
     margin-right: 2;
 }
 
-nav a {
+nav a:link,
+nav a:visited {
     text-decoration: none;
+    color: #4b4b4b;
+}
+
+nav a:hover,
+nav a:active {
+    font-weight: bold;
 }
