@@ -57,6 +57,7 @@ strong {
 
 .about-text {
     margin-right: 20px;
+    min-width: 400px;
 }
 
 label {
