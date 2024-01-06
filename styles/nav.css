@@ -1,9 +1,11 @@
 nav ul {
     display: flex;
+    margin-top: 10px;
 }
 
 nav ul li {
-    margin-right: 18px;
+    font-size: 16px;
+    margin-right: 22px;
     list-style: none;
 }
 
@@ -20,4 +22,9 @@ nav a:visited {
 nav a:hover,
 nav a:active {
     font-weight: bold;
+}
+
+.nav-bar {
+border-bottom: #4b4b4b8c 1px solid;
+padding-bottom: 8px;
 }
