@@ -10,3 +10,7 @@ nav ul li {
 nav ul li:last-child {
     margin-right: 2;
 }
+
+nav a {
+    text-decoration: none;
+}
