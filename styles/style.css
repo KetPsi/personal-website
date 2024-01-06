@@ -29,7 +29,5 @@ label {
 }
 
 .comment-box {
-    width: 300px;
-    height: 100px;
-    text-align: top;
+    padding: 5px;
 }
