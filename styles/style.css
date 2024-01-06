@@ -19,10 +19,27 @@ body {
     margin: 5px auto;
 }
 
-.main-container > header {
+.nav-bar {
     display: flex;
     justify-content: space-between;
 }
+
+/* about */
+.about {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.author-img {
+    width: 30%;
+}
+
 
 label {
     font-family: 'Roboto Mono', monospace;
