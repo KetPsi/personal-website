@@ -55,3 +55,21 @@ footer {
     margin-top: 100px;
     text-align: center;
 }
+
+.website-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.website-links-container h4 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.website-link img {
+    width: 25px;
+}
+
+.website-link:hover {
+    color: blue;
+}
