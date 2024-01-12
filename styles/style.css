@@ -82,6 +82,7 @@ footer {
 @media screen and (max-width: 576px) {
     .about {
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .nav-bar {
@@ -89,6 +90,8 @@ footer {
     }
 
     .about-text {
+        margin: 0;
+        margin-left: 10px;
         margin-top: 20px;
     }
 }
