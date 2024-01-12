@@ -1,4 +1,3 @@
-
 /* .main-container::before {
     content: "#Free_Palestine ";
     color: white;
@@ -22,7 +21,8 @@
     font-size: 18px;
 }
 
-.about-text, .author-img {
+.about-text,
+.author-img {
     flex-shrink: 1;
 }
 
@@ -48,7 +48,7 @@ label {
 ::placeholder {
     font-family: 'Roboto Mono', monospace;
     padding: 5px;
-} 
+}
 
 
 footer {
@@ -77,4 +77,18 @@ footer {
 
 .website-link img {
     width: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .nav-bar {
+        flex-direction: column-reverse;
+    }
+
+    .about-text {
+        margin-top: 20px;
+    }
 }
