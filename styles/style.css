@@ -37,6 +37,7 @@ strong {
 
 .about-text {
     margin-right: 20px;
+    margin-left: 20px;
     min-width: 400px;
 }
 
@@ -92,6 +93,7 @@ footer {
     .about-text {
         margin: 0;
         margin-left: 10px;
+        margin-right: 10px;
         margin-top: 20px;
     }
 }
