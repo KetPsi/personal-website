@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
+    font-size: clamp(16px, 2vw, 20px);
     line-height: 1.78;
     color: #4b4b4b;
     background-color: #fff;
