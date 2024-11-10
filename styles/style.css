@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
+    gap: 20px; /* Adds spacing between text and image */
 }
 
 .about-text,
@@ -24,14 +25,14 @@ strong {
 
 .author-img {
     width: 30%;
-    min-width: 200px; /* Reduced minimum width for smaller screens */
+    min-width: 200px;
+    max-width: 300px;
+    flex-shrink: 0; /* Prevents image from shrinking too much */
 }
 
 .about-text {
-    margin-right: 20px;
-    margin-left: 20px;
-    min-width: 250px; /* Reduced minimum width for responsiveness */
-    flex-grow: 1;
+    flex-grow: 1; /* Allows text to take up remaining space */
+    margin: 0 10px;
 }
 
 label {
@@ -73,10 +74,12 @@ footer {
     width: 25px;
 }
 
+/* Responsive styling for small screens */
 @media screen and (max-width: 576px) {
     .about {
         flex-direction: column-reverse;
-        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     .nav-bar {
@@ -84,14 +87,13 @@ footer {
     }
 
     .about-text {
+        width: 100%;
+        text-align: center; /* Centers the text for better readability */
         margin: 0;
-        width: 90%; /* Ensures text takes up most of the screen width */
-        margin-top: 20px;
-        text-align: center; /* Centers the text for better readability on small screens */
     }
 
     .author-img {
-        width: 80%; /* Makes the image take up more space on smaller screens */
+        width: 80%;
         min-width: 150px;
     }
 }
