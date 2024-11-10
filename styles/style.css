@@ -92,9 +92,9 @@ footer {
 
     .about-text {
         margin: 0;
-        /* margin-left: 95%;
-        margin-right: 95%; */
-        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        /*width: 90%;*/
         margin-top: 20px;
     }
 }
